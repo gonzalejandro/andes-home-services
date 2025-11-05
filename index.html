@@ -1,0 +1,76 @@
+---
+layout: default
+title: Andes Stump Grinding | Professional Stump Grinding Services
+description: Andes Stump Grinding - Professional stump grinding services. Serving your stump removal needs with quality and reliability.
+---
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="{{ '/assets/andes-stump-grinding.png' | relative_url }}" alt="{{ site.title }}" class="logo-image">
+            <div class="logo-content">
+                <h1>{{ site.title }}</h1>
+                <p class="tagline">Professional Stump Grinding Services</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h2>Professional Stump Grinding Services</h2>
+            <p class="subtitle">Quality workmanship you can trust</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>At {{ site.title }}, we're proud to be Metro Detroit's trusted choice for professional stump grinding. We combine reliable service, top-quality equipment, and skilled workmanship to make every job fast, safe, and hassle-free.</p>
+                    <p>Removing a stump on your own can be time-consuming, costly, and even dangerous without the right tools. That's why we focus on giving homeowners and contractors a more efficient, cost-effective solution — saving you the effort and ensuring the job is done right the first time.</p>
+                    <p>Whether it's one small stump or a full property cleanup, we treat every project with care and attention to detail. Our mission is simple: leave your yard cleaner, safer, and ready for what's next.</p>
+                    <p><strong>{{ site.title }} — local, dependable, and built on hard work.</strong></p>
+                </div>
+                <div class="about-image">
+                    <img src="{{ '/assets/stump-grinding.webp' | relative_url }}" alt="Professional stump grinding equipment">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="{{ '/assets/bandit.jpg' | relative_url }}" alt="Stump grinding service">
+                    </div>
+                    <h3>Stump Grinding</h3>
+                    <p>Professional stump removal services to keep your property clean and safe. We use state-of-the-art equipment to efficiently remove tree stumps of all sizes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Ready to start your project? Contact us today for a free estimate!</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                <p><strong>Phone:</strong> <a href="tel:{{ site.phone | replace: '(', '' | replace: ')', '' | replace: ' ', '' | replace: '-', '' }}">{{ site.phone }}</a></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </div>
+</footer>
